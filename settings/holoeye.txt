@@ -1,0 +1,30 @@
+{
+
+
+ "general"        :
+                    {
+                     "device"                : "cuda",
+                     "learning rate"         : 2e-3,
+                     "learning rate floor"   : 5e-4,
+                     "hidden layers"         : 24,
+                     "kernel size"           : 3,
+                     "epochs"                : 40,
+                     "save every"            : 1,
+                     "output directory"      : "~/output/autocolor/"
+                    },
+
+
+ "training data"  :
+                    {
+                     "directory"       : "~/datasets/holograms_holoeye_stable_diffusion_v2_1024_1024_holohdr/scale_1_8",
+                     "shuffle"         : 1
+                    },
+
+
+ "test data"      :
+                    {
+                     "directory"       : "./input/" 
+                    }
+
+
+}

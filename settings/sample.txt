@@ -1,0 +1,30 @@
+{
+
+
+ "general"        :
+                    {
+                     "device"                : "cuda",
+                     "learning rate"         : 1e-2,
+                     "learning rate floor"   : 1e-3,
+                     "hidden layers"         : 24,
+                     "kernel size"           : 3,
+                     "epochs"                : 100,
+                     "save every"            : 99,
+                     "output directory"      : "~/output/autocolor"
+                    },
+
+
+ "training data"  :
+                    {
+                     "directory"       : "./input/",
+                     "shuffle"         : 0
+                    },
+
+
+ "test data"      :
+                    {
+                     "directory"       : "./input/" 
+                    }
+
+
+}
